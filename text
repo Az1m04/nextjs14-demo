@@ -1,0 +1,10 @@
+# `openssl rand -base64 32`
+AUTH_SECRET="vyI2IFRSBam8gccVz/9Sd+n7pL0uQUG4dnf5kNovzrk="
+AUTH_URL=http://localhost:3000/api/auth
+POSTGRES_URL="postgres://default:RIkZ9Xj8Aihe@ep-noisy-dew-00180556-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb"
+POSTGRES_PRISMA_URL="postgres://default:RIkZ9Xj8Aihe@ep-noisy-dew-00180556-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?pgbouncer=true&connect_timeout=15"
+POSTGRES_URL_NON_POOLING="postgres://default:RIkZ9Xj8Aihe@ep-noisy-dew-00180556.us-east-1.postgres.vercel-storage.com:5432/verceldb"
+POSTGRES_USER="default"
+POSTGRES_HOST="ep-noisy-dew-00180556-pooler.us-east-1.postgres.vercel-storage.com"
+POSTGRES_PASSWORD="RIkZ9Xj8Aihe"
+POSTGRES_DATABASE="verceldb"
